@@ -1,0 +1,35 @@
+@import "header.css";
+@import "servicos.css";
+@import "nav.css";
+@import "informacoes.css";
+@import "galeria.css";
+@import "footer.css";
+@import "profissionais.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,500;1,300&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,500;0,600;0,700;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: #E3CCAE;
+}
+
+
+/*https://colorhunt.co/palette/000000262a56b8621be3ccae
+https://colorhunt.co/palette/f9e0aefc8621c24914682c0e
+https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb
+https://colorhunt.co/palette/5c4d4d915b4aa96851f2f1e7
+
+https://pigment.shapefactory.co/?d=3&s=3&a=D08850&b=531C14
+https://pigment.shapefactory.co/?d=2&s=3&a=DE8136&b=5D1A0C
+https://pigment.shapefactory.co/?d=3&s=3&a=A55E2F&b=EDF1F1
+https://duotone.shapefactory.co/?i=MNu0n-3BIKs&f=A55E2F&t=EDF1F1&q=barber
+https://duotone.shapefactory.co/?f=3c2a21&t=9d8f8f&q=barber
+*/

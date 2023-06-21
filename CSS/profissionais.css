@@ -1,0 +1,64 @@
+.profissionais {
+    background-color: #E3CCAE;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-top: 88px;
+}
+
+.imgProfissionais {
+    grid-column: 2;
+    grid-row-start: 1;
+    padding-bottom: 88px;
+}
+
+.imgPr__ft {
+    height: 500px;
+}
+
+.infoProfissionais {
+    grid-column: 4/17;
+    grid-row-start: 1;
+}
+
+.infoProfissionais__titulo {
+    text-align: left;
+    font-family: "EB Garamond";
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.infoProfissionais__subtitulo {
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.galeria {
+    grid-column: 3;
+    grid-row-start: 4;
+}
+
+@media (max-width: 1200px) {
+    .imgPr__ft {
+        height: 300px;
+    }
+    .infoProfissionais__titulo {
+        text-align: left;
+        font-family: "EB Garamond";
+        font-size: 35px;
+        font-weight: 800;
+        margin-bottom: 8px;
+    }
+    .infoProfissionais__subtitulo {
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        line-height: 1.5em;
+        text-align: justify;
+        font-weight: 500;
+    }
+    
+}

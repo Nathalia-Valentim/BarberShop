@@ -1,0 +1,101 @@
+.servicos {
+    background-color: #E3CCAE;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding-bottom: 88px;
+
+}
+
+.servicosTitulo {
+    color: #000000;
+    grid-column: 1/13;
+    text-align: center;
+    margin-top: 24px;   
+    font-family: "EB Garamond";
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.servicos__bloco1, .servicos__bloco2, .servicos__bloco3, .servicos__bloco4, .servicos__bloco5, .servicos__bloco6 {
+    background-color: #d3ba9a;
+    margin: 16px;
+    border-radius: 8px;
+    padding: 16px 16px 16px 16px;
+}
+
+.servicos__bloco1 {
+    grid-row-start: 2;
+    grid-column: 3/7;
+}
+.servicos__bloco2 {
+    grid-row-start: 2;
+    grid-column: 7/11;
+}
+.servicos__bloco3 {
+    grid-row-start: 3;
+    grid-column: 3/7;
+}
+.servicos__bloco4 {
+    grid-row-start: 3;
+    grid-column: 7/11;
+}
+
+.servicos__bloco5 {
+    grid-row-start: 4;
+    grid-column: 3/7;
+}
+
+.servicos__bloco6 {
+    grid-row-start: 4;
+    grid-column: 7/11;
+}
+
+h4 {
+    font-family: "Josefin Sans";
+    color: #000000;
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+p {
+    font-weight: 500;
+    font-family: "Josefin Sans";
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width: 720px) {
+    .servicos {
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+    }
+    h4 {
+        font-family: "Josefin Sans";
+        color: #F9E0AE;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-weight: 500;
+    }
+    p {
+        font-weight: 300;
+        font-family: "Josefin Sans";
+        color: #F9E0AE;
+        text-align: center;
+        font-size: 16px;
+    }
+    .servicosTitulo {
+        color: #000000;
+        grid-column: 1/13;
+        text-align: center;
+        margin-top: 24px;   
+        font-family: "EB Garamond";
+        font-size: 30px;
+        font-weight: 800;
+    }
+   
+}
